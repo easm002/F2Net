@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.pth
+*.pt
+*.tar
+.ipynb_checkpoints/
+outputs/
+.DS_Store
+*.egg-info/
