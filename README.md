@@ -1,8 +1,23 @@
 # F2Net: A Frequency-Fused Network for Ultra-High Resolution Remote Sensing Segmentation
 
+[![lint](https://github.com/easm002/F2Net/actions/workflows/lint.yml/badge.svg)](https://github.com/easm002/F2Net/actions/workflows/lint.yml)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 > **News (March 2026):** 🎉 Our paper has been accepted by **CVPR 2026**!
 
 Official repository of the CVPR 2026 paper **"F2Net: A Frequency-Fused Network for Ultra-High Resolution Remote Sensing Segmentation"**.
+
+![F2Net framework](resources/framework.png)
+
+## Installation
+
+```bash
+conda create -n f2net python=3.11 -y
+conda activate f2net
+pip install -r requirements.txt
+```
+
+See [docs/install.md](docs/install.md) for details.
 
 ## Data preparation
 
@@ -16,7 +31,15 @@ python datasets/prepare_inria.py --src /path/to/AerialImageDataset/train --out d
 ```
 
 The scripts convert the color-coded masks to label maps and apply the community
-splits (455/207/142 and 126/27/27, following GLNet / FCtL / ISDNet).
+splits (455/207/142 and 126/27/27, following GLNet / FCtL / ISDNet). See
+[docs/dataset_prepare.md](docs/dataset_prepare.md) for details and utilities.
+
+## Testing
+
+```bash
+pip install -r requirements/tests.txt
+pytest tests/
+```
 
 ## Citation
 

@@ -1,5 +1,1 @@
-torch>=2.0
-timm
-einops
-numpy
-pillow
+-r requirements/runtime.txt

@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you find this work helpful, please cite the paper below."
+title: "F2Net: A Frequency-Fused Network for Ultra-High Resolution Remote Sensing Segmentation"
+authors:
+  - family-names: Chen
+    given-names: Hengzhi
+  - family-names: Feng
+    given-names: Liqian
+  - family-names: Wu
+    given-names: Wenhua
+  - family-names: Zhu
+    given-names: Xiaogang
+  - family-names: Wu
+    given-names: Qiuxia
+  - family-names: Shan
+    given-names: Lianlei
+  - family-names: Hu
+    given-names: Kun
+preferred-citation:
+  type: conference-paper
+  title: "F2Net: A Frequency-Fused Network for Ultra-High Resolution Remote Sensing Segmentation"
+  authors:
+    - family-names: Chen
+      given-names: Hengzhi
+    - family-names: Feng
+      given-names: Liqian
+    - family-names: Wu
+      given-names: Wenhua
+    - family-names: Zhu
+      given-names: Xiaogang
+    - family-names: Wu
+      given-names: Qiuxia
+    - family-names: Shan
+      given-names: Lianlei
+    - family-names: Hu
+      given-names: Kun
+  collection-title: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  year: 2026
