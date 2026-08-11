@@ -4,17 +4,6 @@
 
 Official repository of the CVPR 2026 paper **"F2Net: A Frequency-Fused Network for Ultra-High Resolution Remote Sensing Segmentation"**.
 
-| Component | Paper | Code |
-|---|---|---|
-| Adaptive Frequency Decomposition (AFD) | Sec. 3.2, Eq. 2–7 | `models/afd.py` |
-| High-frequency branch (VMamba-Tiny-M2) | Sec. 3.2 / 4.1 | `models/high_frequency.py`, `models/vmamba/` |
-| Short-range sub-branch (DeepLabv3, ResNet-18) | Sec. 3.3 / 4.1 | `models/deeplabv3.py` |
-| Long-range sub-branch (6-layer ViT-tiny) | Sec. 3.3 / 4.1 | `models/vit.py` |
-| Hybrid-Frequency Fusion (HFF) | Sec. 3.4, Eq. 12–15 | `models/hff.py` |
-| Cross-frequency objectives (CFAL / CFBL) | Sec. 3.5, Eq. 16–17 | `models/losses.py` |
-| Evaluation metrics (mIoU / F1) | Sec. 4.1 | `utils/metrics.py` |
-| Dataset preparation (DeepGlobe, Inria Aerial) | Sec. 4.1 | `datasets/` |
-
 ## Data preparation
 
 [DeepGlobe Land Cover](http://deepglobe.org/) (803 × 2448×2448, 7 classes) and the
